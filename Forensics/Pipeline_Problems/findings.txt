@@ -1,0 +1,12 @@
+csrfToken=XF0mWVL5OW_ga0paQa3UGYASh646MTcxNzU1ODExNTM0OTM5Mjg0Ng
+site found http://git.hackmeto.win/
+
+look at the source on that page and find /explore_repos to find the docker setup
+
+git clone into http://git.hackmeto.win/csn3rd/flag-api-backend.git after i went back and saw they updated it.
+
+<form class="ui form" action="/user/login" method="post">
+	<input type="hidden" name="_csrf" value="XF0mWVL5OW_ga0paQa3UGYASh646MTcxNzU1ODExNTM0OTM5Mjg0Ng">
+
+Go to site 
+http://git.hackmeto.win/api/swagger#/admin
